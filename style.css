@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbar{
+    background-color: #EFE4D7;
+    padding: 18px 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.Navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar h1{
+    color: #B28D79;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.Navbar a:hover{
+    color: #a57c7c;
+}
+
+.Navbar button{
+    margin-left: 30px;
+    padding: 10px 22px;
+    background-color: #B28D79;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Navbar button:hover{
+    background-color: #a57c7c;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px 80px 80px;
+    background-color: #f8f9fc;
+}
+
+.hero-text{
+    width: 50%;
+}
+
+.hero-text h2{
+    font-size: 50px;
+    color: #B28D79;
+    margin-bottom: 20px;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.hero-text button{
+    padding: 14px 30px;
+    background-color: #B28D79;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-text button:hover{
+    background-color: #a57c7c;
+}
+
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.about{
+    background-color: #EFE4D7;
+    padding: 80px;
+    text-align: center;
+}
+
+.about-content{
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-content h2{
+    font-size: 40px;
+    color: #B28D79;
+    margin-bottom: 25px;
+}
+
+.about-content p{
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.about-content h2::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #BB7B74;
+    margin: 12px auto;
+    border-radius: 10px;
+}
+
+.services{
+    padding: 80px;
+    background-color: #f8f9fc;
+    text-align: center;
+}
+
+.services h2{
+    font-size: 40px;
+    color: #B28D79;
+    margin-bottom: 50px;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #BB7B74;
+}
+
+.card p{
+    color: #555;
+    line-height: 1.7;
+}
+
+.contact{
+    background-color: #EFE4D7;
+    padding: 80px;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 40px;
+    color: #B28D79;
+    margin-bottom: 40px;
+}
+
+.contact form{
+    width: 500px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact textarea{
+    height: 140px;
+    resize: none;
+}
+
+.contact button{
+    background-color: #B28D79;
+    color: white;
+    padding: 14px 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact button:hover{
+    background-color: #a57c7c;
+}
+
+.contact-info{
+    margin-top: 40px;
+}
+
+.contact-info p{
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.footer{
+    background-color: #EFE4D7;
+    color: black;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+}
+
+.footer h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #B28D79;
+}
+
+.footer p{
+    font-size: 16px;
+    margin: 8px 0;
+    color: black;
+}
