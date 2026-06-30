@@ -39,4 +39,4 @@ While building this project, I practiced:
 
 ## Live Demo
 
-https://saja-khalil.github.io/Task2/
+ https://saja-khalil.github.io/Veloura_Landing_Page/
