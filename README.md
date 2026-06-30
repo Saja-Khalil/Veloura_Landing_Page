@@ -1,4 +1,4 @@
-# Veloura Landing Page
+# Veloura_Landing_Page
 # Veloura
 
 ## About the Project
