@@ -8,32 +8,26 @@
 </head>
 <body>
 
-    <section>
-        <div class="Navbar">
-            <nav>
-                <div class="logo">
-                    <img src="images/Logo.png" alt="Store Logo">
-                    <h1>Veloura</h1>
-                </div>
-                
-                <div>
-                    <a href="#Home">Home</a> &nbsp;
-                    <a href="#About">About</a> &nbsp;
-                    <a href="#Services">Services</a> &nbsp;
-                    <a href="#Contact">Contact</a> &nbsp;
-                </div>
-                 
-                <button>Join Now</button>
+    <header class="navbar" id="navbar">
+        <nav>
+            <div class="logo">
+                <img src="images/Logo.png" alt="Veloura logo">
+                <h1>Veloura</h1>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+                <a href="#contact" class="btn">Join Now</a>
             </nav>
-        </div>
-    </section>
+        </header>
 
-    <section class="hero">
+    <section id="home" class="hero">
         <div class="hero-text">
-            <h2>Welcome to 
-                <br>
-                MyStore
-            </h2>
+            <h2>Welcome to Veloura</h2>
 
             <div class="hero-line">
                 <span></span>
@@ -41,48 +35,46 @@
                 <span></span>
             </div>
             <p>Discover elegant mugs that brighten your day and original Korean skincare products that bring out your natural glow.
-                <br> 
                 Our store is for everyone, offering quality items at affordable prices.
             </p>
 
-            <button>Shop Now</button>           
+            <a href="#services" class="btn">Shop Now</a>           
         </div>
 
         <div class="hero-image">
-                <img src="images/Image.png" alt="Store Image">
+                <img src="images/Image.png" alt="Veloura products">
         </div> 
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="about-content">
             <h2>About us</h2>
 
-            <p>At MyStore Veloura, we bring you stylish mugs and authentic Korean skincare products. Our mission is to provide high-quality items that anyone can enjoy — men and women alike — at affordable prices. 
-                <br>
+            <p>At Veloura, we bring you stylish mugs and authentic Korean skincare products. Our mission is to provide high-quality items that anyone can enjoy — men and women alike — at affordable prices. 
                 We believe in making everyday life more beautiful and simple through our carefully selected products.
             </p>
 
         </div>        
     </section>
 
-    <section class="services">
+    <section id="services" class="services">
         <h2>Our Services</h2>
         
         <div class="services-container">
-            <div class="card">
+            <article class="card">
                 <h3>🚚 Fast Delivery</h3>
                 <p>Get your products delivered quickly and safely.</p>
-            </div>
+            </article>
             
-            <div class="card">
+            <article class="card">
                 <h3>💳 Secure Payment</h3>
                 <p>Pay easily with trusted and secure methods.</p>
-            </div>
+            </article>
 
-            <div class="card">
+            <article class="card">
                 <h3>⭐ Quality Products</h3>
                 <p>We provide only high-quality and authentic items.</p>
-            </div>
+            </article>
 
         </div>
 
@@ -92,17 +84,21 @@
         <h2>Contact Us</h2>
         
         <form>
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your Name" required>
 
-            <textarea placeholder="Your Message"></textarea>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Your Email" required>
 
-            <button type="submit">Send</button>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
         </form>
         
         <div class="contact-info">
-            <p>📧 Email: Veloura@gmail.com</p>
-            <p>📞 Phone: +123 456 789</p>
+            <p>📧 Email: <a href="mailto:Veloura@gmail.com">Veloura@gmail.com</a></p>
+            <p>📞 Phone: <a href="tel:+123456789">+123 456 789</a></p>
             <p>📍 Location: Hebron, Palestine</p>
         </div>
 
