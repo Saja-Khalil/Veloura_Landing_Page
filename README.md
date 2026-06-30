@@ -37,6 +37,3 @@ While building this project, I practiced:
 * Working with colors, spacing, and hover effects.
 * Organizing project files in a clean structure.
 
-## Live Demo
-
- https://saja-khalil.github.io/Veloura_Landing_Page/
